@@ -1,11 +1,13 @@
-import NxWelcome from './nx-welcome';
+// import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { PostHogDemo } from '../components/PostHogDemo';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="@data-engineer-fullstack-test/web" />
+      {/*<NxWelcome title="@data-engineer-fullstack-test/web" />*/}
+      <PostHogDemo />
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
