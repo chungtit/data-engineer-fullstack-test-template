@@ -2,7 +2,13 @@ import { posthog } from '../lib/posthog';
 
 export const PostHogDemo = () => {
   const handleFeatureUsed = () => {
-    posthog.capture('feature_used');
+    posthog.capture('feature_used', {
+      person: {
+        properties: {
+          email: "luongthuychung10@gmail.com",
+        }
+      }
+    });
   };
 
   const handleGenerationFailed = () => {
