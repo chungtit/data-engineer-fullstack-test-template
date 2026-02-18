@@ -168,7 +168,3 @@ The **"Simulate Generation Failure"** button triggers a `generation_failed` even
 - **Backend**: NestJS, Node.js
 - **Monorepo**: Nx
 - **Package Manager**: pnpm
- 
-## Loom Video Explanation:
-Video Walkthrough:
-[here](https://www.loom.com/share/a9b755b3ee134f6c8a8cc5fc24d133c8)
